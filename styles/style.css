@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header Styles */
+
+/* Navbar Related Styles */
+
+.navbar{
+   justify-content: space-evenly; 
+}
+.nav-links{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.nav-link-1{
+    text-decoration: none;
+    color: orange;
+    
+}
+.nav-link-2{
+    text-decoration: none;
+    color: rgba(1, 172, 253, 1)
+    
+}
+.nav-link-3{
+    text-decoration: none;
+    color: #05D4DF
+    
+}
+.nav-link-4{
+    text-decoration: none;
+    color: #5D58EF
+    
+}
+.nav-item-1{
+    list-style: none;
+    margin-right: 2rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+        
+}
+.nav-item-2{
+    list-style: none;
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.nav-item-3{
+    list-style: none;
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.nav-item-4{
+    list-style: none;
+    margin-right: 11.63rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.contact-btn{
+    width: 12.25rem;
+    height: 3.13rem;
+    border-radius: 1.3rem;
+    background-color: orange;
+    border: 1px solid white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.navbar img{
+    width: 3.9rem;
+    height: 3.8rem;
+}
+.school{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.school{
+    margin: 1.06rem 11.63rem 0.93rem 0.68rem;
+}
+/* Sheared Styles */
+
+.display-flex{
+    display: flex;
+}
+/* Banner Related Styles */
+
+.banner{
+    max-width: 72.38rem;
+    max-height: 34.82rem;
+    margin: 1.25rem 8.82rem 0rem 8.82rem;
+    align-items: center;
+    
+}
+.banner-content{
+    margin: 7.63rem 3.13rem 7.63rem 0rem;
+    gap: 1.5rem;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#empower{
+    color: orange;
+}
+#vision{
+    color: rgba(1, 172, 253, 1)
+}
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+}
+.enrool-btn{
+    width: 12.32rem;
+    height: 3.13rem;
+    border-radius: 0.75rem;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.63rem 2.5rem 0.63rem 2.5rem;
+
+}
+.banner img{
+    width: 29.29rem;
+    height: 35.94rem;
+}
