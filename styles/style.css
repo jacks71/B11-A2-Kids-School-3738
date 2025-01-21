@@ -463,3 +463,47 @@
     color: white;
     border-radius: 12px;
 }
+/* Footer Related Style */
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    padding: 123px 228px 174px 140px;
+    gap: 28px;
+    background-color: #01ACFD;
+    color: white;
+
+}
+
+.kids-education1 img{
+    max-width: 90px;
+    max-height: 82px;
+    background-color: white;
+
+}
+
+.kids-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-title{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+#link-a, #link-b, #link-c, #link-d{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    
+}
+.about-list{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.touch-title{
+    font-size: 26px;
+    font-weight: bold;
+}
