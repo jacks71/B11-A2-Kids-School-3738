@@ -93,14 +93,19 @@
 .display-flex{
     display: flex;
 }
+
 /* Banner Related Styles */
 
 .banner{
-    max-width: 72.38rem;
-    max-height: 34.82rem;
+    width: 72.38rem;
+    height: 34.82rem;
     margin: 1.25rem 8.82rem 0rem 8.82rem;
     align-items: center;
     
+}
+.hero{
+    width: 468.61px;
+    height: 575px;
 }
 .banner-content{
     margin: 7.63rem 3.13rem 7.63rem 0rem;
@@ -293,7 +298,7 @@
     background-color: white;
     border-radius: 16px;
     width: 540.72px;
-    height: 630.52px;
+    /* height: 630.52px; */
 }
 .story1 img{
     max-width: 540;
@@ -320,7 +325,10 @@
     font-size: 15.38px;
     font-weight: 500;
     border: 1px solid #3CD8E8;
+    margin-top: -314px;
     margin-left: 38.35px;
+    
+
 }
 .story2{
     background-color: white;
@@ -353,7 +361,9 @@
     font-size: 15.34px;
     font-weight: 500;
     border: 1px solid #95B226;
+    margin-top: -314px;
     margin-left: 38.35px;
+    margin-bottom: -314px;
 }
 .story3{
     background-color: white;
@@ -386,7 +396,9 @@
     font-size: 15.34px;
     font-weight: 500;
     border: 1px solid #95B226;
+    margin-top: -314px;
     margin-left: 38.35px;
+    margin-bottom: -314px;
 }
 .story4{
     background-color: white;
@@ -419,7 +431,9 @@
     font-size: 15.34px;
     font-weight: 500;
     border: 1px solid #95B226;
+    margin-top: -314px;
     margin-left: 38.35px;
+    margin-bottom: -314px;
 }
 .story5{
     background-color: white;
@@ -452,7 +466,9 @@
     font-size: 15.34px;
     font-weight: 500;
     border: 1px solid #95B226;
+    margin-top: -314px;
     margin-left: 38.35px;
+    margin-bottom: -314px;
 }
 .view-btn{
     margin: 0px 680px;
@@ -506,4 +522,45 @@
 .touch-title{
     font-size: 26px;
     font-weight: bold;
+}
+#Assignment-2{
+    background-color: orange;
+    /* opacity: 70%; */
+    border: 1px solid orange;
+    border-radius: 16px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #01ACFD;
+}
+
+/* Responsive Styles */
+@media screen and (max-width:576px) {
+    .hide2{display: none;}
+    .navbar{
+    justify-content: space-between;
+    border: 1px solid orange;
+    max-width: 100%;
+    }
+    .hambg{
+        padding-left: 390px;
+        padding-right: 17px;
+    }
+    .banner{
+        flex-direction: column;
+        width: 360px;
+        height: 720px;
+        margin-top: 50px;
+        align-items: center;
+
+        
+    }
+    .hero{flex-direction:column-reverse;}
+}
+
+
+
+@media screen and (min-width:577px) {
+    .hide1{
+        display: none;
+    }
 }
